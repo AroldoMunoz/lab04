@@ -50,5 +50,15 @@
 </ul>
 </td>
 </<tr>
-</tdbody>
+<tr><td colspan="6">DOCENTES:
+<ul>
+<li>Richart Smith Escobedo Quispe - rescobedoq@unsa.edu.pe</li>
+</ul>
+</td>
+</<tr>
+    
+ </tdbody>
+
 </table>
+
+
