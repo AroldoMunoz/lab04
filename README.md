@@ -46,13 +46,13 @@
 </<tr>
 <tr><td colspan="6">DOCENTES:
 <ul>
-<li>Richart Smith Escobedo Quispe - rescobedoq@unsa.edu.pe</li>
+<li>Anibal Zardon - @unsa.edu.pe</li>
 </ul>
 </td>
 </<tr>
-<tr><td colspan="6">DOCENTES:
+<tr><td colspan="6">Alumno:
 <ul>
-<li>Richart Smith Escobedo Quispe - rescobedoq@unsa.edu.pe</li>
+<li>Muñoz Romani Aroldo Guillermo - amunozro@unsa.edu.pe</li>
 </ul>
 </td>
 </<tr>
