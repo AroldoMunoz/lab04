@@ -10,9 +10,7 @@ imag2=Picture(SQUARE)
 print(len(KING[0]))
 print(len(KING))
 imag.join(ROCK)
-
 imag2.join(ROCK)
-
 imag.up(imag2.img)
 
 
