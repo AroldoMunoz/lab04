@@ -3,7 +3,7 @@ from chessPictures import *
 
 imag = Picture(QUEEN)
 
-image=imag.horizontalRepeat(3)
+image=imag.horizontalRepeat(2)
 #image=imag.verticalRepeat(3)
 
 

@@ -33,8 +33,9 @@ class Picture:
     
 
   def negative(self):
+    
     """ Devuelve un negativo de la imagen """
-    return Picture(None)
+    return self._invColor
 
   def join(self, chess):
     """ Devuelve una nueva figura poniendo la figura del argumento 
@@ -71,22 +72,27 @@ class Picture:
     return Picture(None)
   
   def horizontalRepeat(self, n):
-    
-    horiz=self
-   
-    """
-    for i in range(0,n):
-      horiz.append(self.img)
-    return horiz
-    """
-    for i in range(0,n):
-      horiz.join(self.img)
-      
-    return horiz
- 
-     
     """ Devuelve una nueva figura repitiendo la figura actual al costado
         la cantidad de veces que indique el valor de n """
+    chess=self.img
+    nny=len(chess)
+    nuevo=self.img
+    for i in range(n):
+      for j in range(0,nny):
+          nuevo[j]=nuevo[j]+chess[j]
+        
+    return nuevo
+    
+    """horiz=[]
+      
+    
+    for i in range(0,n):
+      horiz.append(self.img)"""
+    """
+    for i in range(0,n):
+      horiz.join(self)
+      """
+    
   def verticalRepeat(self, n):
     verti=[]
     #pri=self.img
@@ -99,7 +105,9 @@ class Picture:
   #Extra: Sólo para realmente viciosos 
   def rotate(self):
     """Devuelve una figura rotada en 90 grados, puede ser en sentido horario
-    o antihorario"""
+    o antihorario
+    sentido horario """
+
     horizon=[]
     n=len(self.img)
     nn=len(self.img[0])
